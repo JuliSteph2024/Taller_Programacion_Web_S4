@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección por clase</title>
+</head>
+<body>
+    <!--Aplicar los estilo a la clase cajita:
+    1.- Que tenga un borde de grosor 2px y color azul.
+    2.- Que el texto esté centrado con un tipo de letra Courier y resaltado.
+    3.- Que los div estén centrados.-->
+    <div class="cajita">
+        <h1>Trabalenguas</h1>
+        <p>Tres tristres tigres tragan trigo en un trigal.</p>
+    </div>
+
+    <div class="cajita">
+        <h1>Día del Programador</h1>
+        <p>Feliz día del programador, 13 de Septiembre.</p>
+    </div>
+    
+    <script>
+        let elementos = document.getElementsByClassName("cajita");
+        /*Usamos elementos .length para evitar escribir el número total de datos y que esto se coloque de
+        forma atomática.*/
+        for(let i=0; i<elementos.length; i++) {
+            elementos[i].style.border = '2px solid blue'
+            elementos[i].style.textAlign = 'center'
+            elementos[i].style.fontFamily = 'Courier'
+            elementos[i].style.backgroundColor = 'pink'
+            elementos[i].style.width = '50%'
+            elementos[i].style.margin = '0 auto'
+        }
+    </script>
+</body>
+</html>

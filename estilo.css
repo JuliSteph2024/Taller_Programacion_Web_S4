@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 228, 249);
+}
+
+.contenedor {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+ul>li {
+    color: #333;
+    text-align: center;
+}
+
+li {
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 4.5rem;
+    transition: color 0.4s;
+}
+
+a {
+    text-decoration:none;
+    color: #333;
+    transition: color 0.4s;
+}
+
+a:hover {
+    color: rgb(228, 66, 93);
+}
+
+li:hover {
+    color: rgb(228, 66, 93);
+}

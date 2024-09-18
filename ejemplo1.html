@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionar por ID</title>
+</head>
+<body>
+    <div id="cajita">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates beatae aliquam illum maxime. Quia, quasi explicabo facere id ipsum consectetur, ratione corrupti rerum iure asperiores aperiam doloremque a, corporis itaque.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa accusamus perspiciatis earum neque reiciendis fugiat beatae voluptatem dolores sit velit enim cumque, id sint animi. Recusandae quia quae eveniet dolor.
+        <p id="texto1">Rem sint soluta.</p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio impedit facere voluptatibus sapiente earum fugit ea excepturi exercitationem! Necessitatibus ea veritatis voluptatem recusandae dignissimos quod quae incidunt similique asperiores eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam maxime iure ratione quas molestiae nostrum a necessitatibus corporis repellendus ex aliquam earum expedita vero, id dolor voluptas. Quaerat, corrupti assumenda.
+        <p id="texto2">Perspeciatitempore.</p>
+    </div>
+
+    <script>
+        let elemento = document.getElementById("cajita");
+        let elemento2 = document.getElementById("texto1");
+        let elemento3 = document.getElementById("texto2");
+        elemento.style.color = "green";
+        elemento.style.fontFamily = "Verdana";
+        elemento2.style.fontStyle = "italic";
+        elemento2.style.fontWeight = "bold";
+        elemento3.style.textDecoration = "underline"
+        elemento3.style.backgroundColor = "yellow"
+
+/*Aplicar los estilos de div cajita cambiando los estilos*/
+/*1.- Texto de color verde y fuente Verdana. */
+/*2.- Aplicar al texto perspeciatitempore cursiva y negrita*/
+/*3.- Aplicar al texto rem absolute subrayado y resaltador*/
+    </script>
+</body>
+</html>
